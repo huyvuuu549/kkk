@@ -2,12 +2,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "huyvu hub",
+         Title = "yue-sama hub",
          Animation = "em tệ lắm :("
          },
         Key = {
         KeySystem = true,
-        Title = "huyvu hub",
+        Title = "yue-sama hub",
         Description = "dán key của m vô",
         KeyLink = "",
         Keys = {"anhnhoem"},
