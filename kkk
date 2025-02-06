@@ -1,0 +1,92 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "huyvu hub",
+         Animation = "em tệ lắm :("
+         },
+        Key = {
+        KeySystem = true,
+        Title = "huyvu hub",
+        Description = "dán key của m vô",
+        KeyLink = "",
+        Keys = {"anhnhoem"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=135047753447109",
+       Size = {50, 50},
+       Color = Color3.fromRGB(10, 20, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "main"})
+     local Tab2o = MakeTab({Name = "aim lỏ"})
+     
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "fix lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "redz",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "w-azure",
+    Callback = function()
+	  getgenv().Team = "Marines"
+getgenv().FixCrash = true -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = true -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "chuối hub(h.vũ ms sài đc)",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer getgenv().Key = "AlViKXZdPhgcrXYwtLUcamCYGWTzvGJb" loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "xero hub",
+    Callback = function()
+	  getgenv().Team = "Marines" -- Pirates/Marines
+getgenv().Fix_Lag = true -- true/false
+getgenv().Auto_Execute = false -- true/false
+getgenv().Clear_Settings = false -- true/false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/main.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "cuttay hub( dùg để gạt cần)",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/mizuharasup/cutaypremium/refs/heads/main/premium.lua'))()
+  end
+  })
+----- Dropdown 
+
+  Dropdown = AddDropdown(Tab1o, {
+     Name = "huy vũ",
+     Options = {"dzaii s1 tg"},
+     Default = "Melee",
+     Callback = function()
+     end
+   })
+   AddButton(Tab2o, {
+     Name = "aim",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Aepione/Prensado/refs/heads/main/Prensado%20camlock"))()
+  end
+  })
